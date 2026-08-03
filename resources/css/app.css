@@ -1,0 +1,2271 @@
+@import 'bootstrap/dist/css/bootstrap.min.css';
+@import 'bootstrap-icons/font/bootstrap-icons.css';
+
+
+
+html{
+    scroll-behavior:smooth;
+    scroll-padding-top:95px;
+}
+
+
+:root{
+    --primary:#F4B400;
+    --dark:#1F2937;
+    --light:#F8FAFC;
+    --white:#ffffff;
+    --gray:#6B7280;
+    --primary:#ffc107;
+    --dark:#1f1f1f;
+    --text:#555;
+}
+
+*{
+    margin:0;
+    padding:0;
+    box-sizing:border-box;
+}
+
+
+body{
+    font-family:'Poppins',sans-serif;
+    color:var(--dark);
+    background:#fff;
+}
+
+.container{
+    max-width:1200px;
+}
+
+/*=========================
+Navbar
+=========================*/
+
+
+
+.navbar-nav{
+
+    gap:8px;
+
+}
+
+.navbar-custom .nav-link{
+
+    color:#ffffff;
+
+    font-weight:600;
+
+    transition:.35s;
+
+}
+
+
+
+
+
+.navbar-custom .nav-link:hover::after{
+
+    width:100%;
+
+}
+
+.navbar-brand img{
+
+    transition:.3s;
+
+}
+
+.navbar-brand img:hover{
+
+    transform:rotate(-5deg) scale(1.08);
+
+}
+
+.navbar-brand{
+
+    gap:15px;
+
+}
+/* ===================== */
+/* HERO */
+/* ===================== */
+
+
+
+.hero .container-fluid{
+
+    max-width:1600px;
+
+}
+
+.hero .container{
+
+    max-width:1320px;
+
+    height:100%;
+
+    display:flex;
+
+    align-items:center;
+
+}
+
+.hero .row{
+
+    min-height:100svh;
+
+    align-items:center;
+
+}
+
+.hero h1{
+
+    font-size:72px;
+
+    font-weight:800;
+
+    line-height:1.1;
+
+}
+
+.hero p{
+
+    font-size:22px;
+
+    line-height:1.8;
+
+    margin:30px 0;
+
+    max-width:600px;
+
+}
+
+.hero .btn{
+
+    padding:16px 40px;
+
+    border-radius:50px;
+
+    font-weight:600;
+
+    transition:.3s;
+
+}
+
+.hero .btn:hover{
+
+    transform:translateY(-5px);
+
+    box-shadow:0 15px 30px rgba(0,0,0,.3);
+
+}
+
+/*=====================================
+TABLET
+=====================================*/
+
+@media (max-width:991px){
+
+    .hero{
+
+
+    min-height:100svh;
+
+    display:flex;
+
+    align-items:center;
+
+    justify-content:center;
+
+    text-align:center;
+
+    padding:100px 20px 40px;
+
+} 
+
+    .hero .row{
+
+        justify-content:center;
+
+    }
+
+    .hero h1{
+
+        font-size:56px;
+
+    }
+
+    .hero p{
+
+        font-size:18px;
+
+        margin:25px auto;
+
+        max-width:650px;
+
+    }
+
+}
+
+/*=====================================
+SECTION LABEL
+======================================*/
+
+.section-title{
+
+    display:flex;
+
+    align-items:center;
+
+    gap:15px;
+
+    margin-bottom:25px;
+
+}
+
+.section-title span{
+
+    width:60px;
+
+    height:3px;
+
+    background:#ffc107;
+
+    border-radius:50px;
+
+}
+
+.section-title small{
+
+    font-size:14px;
+
+    font-weight:700;
+
+    letter-spacing:3px;
+
+    color:#f4b400;
+
+    text-transform:uppercase;
+
+}
+
+.section-heading{
+
+    font-size:48px;
+
+    font-weight:700;
+
+    line-height:1.2;
+
+    color:#1f2937;
+
+    margin:20px 0 25px;
+
+}
+
+.section-decoration{
+
+    width:90px;
+
+    height:4px;
+
+    background:#ffc107;
+
+    border-radius:50px;
+
+    margin:0 auto 20px;
+
+}
+
+/* =======================
+ABOUT
+======================= */
+
+.about-section{
+
+    background:#fff;
+
+}
+
+.section-badge{
+
+    background:#FFF4D4;
+
+    color:#F4B400;
+
+    padding:10px 18px;
+
+    border-radius:30px;
+
+    font-size:14px;
+
+    font-weight:600;
+
+}
+
+section h2{
+
+    font-weight:700;
+
+    font-size:42px;
+
+}
+
+.about-section h2{
+
+    font-size:45px;
+
+    font-weight:700;
+
+    line-height:1.3;
+
+}
+
+.about-section p{
+
+    color:#6b7280;
+
+    line-height:1.9;
+
+}
+
+.info-card{
+
+    background:#fff;
+
+    border-radius:18px;
+
+    padding:30px;
+
+    box-shadow:0 10px 30px rgba(0,0,0,.08);
+
+    text-align:center;
+
+    transition:.3s;
+
+}
+
+.info-card:hover{
+
+    transform:translateY(-8px);
+
+}
+
+.info-card h3{
+
+    font-size:40px;
+
+    color:#F4B400;
+
+    font-weight:700;
+
+}
+
+
+.hero h1{
+    font-weight:700;
+}
+
+.about-section{
+    background:#fff;
+}
+
+.card{
+
+    border:none;
+    box-shadow:0 10px 30px rgba(0,0,0,.08);
+    border-radius:20px;
+
+}
+
+.card:hover{
+    transform:translateY(-10px);
+    box-shadow:0 20px 45px rgba(0,0,0,.15);
+}
+
+/*=====================================
+ABOUT STATS
+======================================*/
+
+.about-stats{
+
+    display:flex;
+
+    gap:50px;
+
+    margin-top:45px;
+
+    flex-wrap:wrap;
+
+}
+
+.stat-item h3{
+
+    font-size:52px;
+
+    font-weight:700;
+
+    color:#f4b400;
+
+    margin-bottom:8px;
+
+}
+
+.stat-item span{
+
+    color:#666;
+
+    font-size:15px;
+
+    font-weight:500;
+
+}
+
+/* =======================
+   VISION
+======================= */
+
+.vision{
+
+    background:#f8f9fa;
+
+}
+
+.vision .card{
+
+    border-radius:20px;
+
+    transition:.3s ease;
+
+}
+
+.vision .card:hover{
+
+    transform:translateY(-8px);
+
+    box-shadow:0 15px 35px rgba(0,0,0,.12);
+
+}
+
+.vision ul{
+
+    padding-left:20px;
+
+}
+
+.vision li{
+
+    margin-bottom:12px;
+
+}
+
+/* ===================================
+LOGO
+=================================== */
+
+.logo-box{
+
+    width:55px;
+
+    height:55px;
+
+    background:#F4B400;
+
+    border-radius:16px;
+
+    display:flex;
+
+    justify-content:center;
+
+    align-items:center;
+
+    color:white;
+
+    font-size:28px;
+
+    font-weight:700;
+
+    box-shadow:0 10px 30px rgba(244,180,0,.35);
+
+}
+
+
+
+.navbar{
+
+    padding:18px 0;
+
+    transition:.4s;
+
+}
+
+.nav-link{
+
+    margin-left:18px;
+
+    font-weight:500;
+
+    position:relative;
+
+}
+
+.nav-link::after{
+
+    content:"";
+
+    position:absolute;
+
+    left:0;
+
+    bottom:-5px;
+
+    width:0;
+
+    height:2px;
+
+    background:#F4B400;
+
+    transition:.3s;
+
+}
+
+.nav-link:hover::after{
+
+    width:100%;
+
+}
+
+.nav-link.active::after{
+
+    width:100%;
+
+}
+
+.btn-warning{
+
+    background:#F4B400;
+
+    border:none;
+
+    transition:.3s;
+
+}
+
+.btn-warning:hover{
+
+    transform:translateY(-2px);
+
+    box-shadow:0 10px 25px rgba(244,180,0,.4);
+
+}
+
+/* ===========================
+   LOGO
+=========================== */
+
+.logo-img{
+
+    width:70px;
+    height:70px;
+    object-fit:contain;
+
+}
+
+
+
+
+
+
+
+/*=====================================
+SERVICES PREMIUM
+======================================*/
+
+.service-card{
+
+    position:relative;
+
+    border-radius:24px;
+
+    overflow:hidden;
+
+    background:#fff;
+
+    transition:all .4s ease;
+
+    cursor:pointer;
+
+}
+
+
+/* Garis atas */
+
+.service-card::before{
+
+    content:"";
+
+    position:absolute;
+
+    top:0;
+
+    left:0;
+
+    width:0;
+
+    height:4px;
+
+    background:#ffc107;
+
+    transition:.4s ease;
+
+}
+
+
+/* Hover */
+
+.service-card:hover{
+
+    transform:translateY(-12px);
+
+    box-shadow:0 25px 50px rgba(0,0,0,.15);
+
+}
+
+
+.service-card:hover::before{
+
+    width:100%;
+
+}
+
+
+/*=====================================
+ICON
+======================================*/
+
+.service-icon{
+
+    width:90px;
+
+    height:90px;
+
+    margin:auto;
+
+    border-radius:50%;
+
+    display:flex;
+
+    justify-content:center;
+
+    align-items:center;
+
+    background:#fff8e1;
+
+}
+
+.service-card .service-icon{
+
+    font-size:58px;
+
+    transition:.4s ease;
+
+}
+
+.service-card:hover .service-icon{
+
+    background:#ffc107;
+
+    color:#fff !important;
+
+}
+
+
+/*=====================================
+TITLE
+======================================*/
+
+.service-card h5{
+
+    margin-top:10px;
+
+    font-size:22px;
+
+    transition:.3s;
+
+}
+
+
+.service-card:hover h5{
+
+    color:#f4b400;
+
+}
+
+
+/*=====================================
+TEXT
+======================================*/
+
+.service-card p{
+
+    line-height:1.8;
+
+    font-size:15px;
+
+}
+
+
+/*=====================================
+RESPONSIVE MOBILE
+======================================*/
+
+@media (max-width:991px){
+
+    .mobile-title{
+
+    font-size:34px;
+    line-height:1.25;
+    max-width:320px;
+    margin-left:auto;
+    margin-right:auto;
+
+}
+
+    /* ==========================
+   SECTION TITLE
+========================== */
+
+.section-heading{
+
+    font-size:34px;
+
+    line-height:1.25;
+
+    max-width:320px;
+
+    margin:15px 0 20px;
+
+}
+
+.why-choose h2{
+
+    font-size:32px;
+
+}
+
+.vision h2{
+
+    font-size:32px;
+
+}
+
+#services h2{
+
+    font-size:32px;
+
+}
+
+    /* ==========================
+       NAVBAR
+    ========================== */
+
+    .navbar-custom{
+        padding:12px 0;
+    }
+
+    .logo-img{
+        width:50px;
+        height:50px;
+    }
+
+    .logo-title{
+        font-size:22px;
+    }
+
+    .navbar-collapse{
+        
+        margin-top:15px;
+        background:#fff;
+        border-radius:22px;
+        padding:18px 22px;
+        box-shadow:0 25px 60px rgba(0,0,0,.18);
+        border:1px solid rgba(0,0,0,.05);
+    }
+
+    .navbar-collapse .nav-link{
+
+    color:#222 !important;
+
+}
+
+.navbar-collapse .nav-link.active{
+
+    color:#F4B400 !important;
+
+}
+
+.navbar-collapse .nav-link:hover{
+
+    color:#F4B400 !important;
+
+}
+
+    /* ==========================
+       HERO
+    ========================== */
+
+   
+
+    .hero h1{
+
+    font-size:33px;
+    line-height:1.15;
+    font-weight:800;
+    margin-bottom:18px;
+    letter-spacing: 2px;
+
+}
+
+.hero p{
+
+    font-size:16px;
+    line-height:1.7;
+    margin:18px auto 28px;
+    max-width:95%;
+
+}
+
+    .hero-buttons{
+        display:flex;
+        flex-direction:column;
+        align-items:center;
+        gap:15px;
+    }
+
+    .hero .btn{
+        width:100%;
+        max-width:320px;
+        padding:14px;
+        font-size:16px;
+    }
+
+    /* ==========================
+       SECTION
+    ========================== */
+
+    section{
+        padding:70px 0;
+    }
+
+    h2{
+        font-size:30px;
+    }
+
+    p{
+        font-size:15px;
+        line-height:1.8;
+    }
+
+    /* ==========================
+       ABOUT STATS
+    ========================== */
+
+    .about-stats{
+        display:flex;
+        flex-wrap:wrap;
+        justify-content:center;
+        gap:25px;
+        text-align:center;
+    }
+
+    .stat-item{
+        flex:0 0 calc(50% - 15px);
+        max-width:160px;
+    }
+
+    .stat-item h3{
+        font-size:36px;
+    }
+
+    .stat-item p{
+        font-size:15px;
+    }
+
+    /* ==========================
+       SERVICES
+    ========================== */
+
+    .service-card{
+        margin-bottom:25px;
+    }
+
+    /* ==========================
+       GALLERY
+    ========================== */
+
+    .gallery-img{
+        height:220px;
+    }
+
+    /* ==========================
+       FOOTER
+    ========================== */
+
+    .footer-section{
+        text-align:center;
+    }
+
+    /* ==========================
+       FLOATING WA
+    ========================== */
+
+    .floating-wa{
+        width:60px;
+        height:60px;
+        right:18px;
+        bottom:90px;
+        font-size:28px;
+    }
+
+}
+/* ===================== */
+/* GALLERY */
+/* ===================== */
+
+.gallery-img:hover{
+
+    transform:scale(1.08);
+
+}
+
+.gallery-img{
+
+    width:100%;
+
+    height:250px;
+
+    object-fit:cover;
+
+    border-radius:20px;
+
+    transition:.4s;
+
+    cursor:pointer;
+
+}
+/* ==========================
+   SERVICES
+========================== */
+
+.service-card{
+
+    transition: .35s;
+
+    border-radius:20px;
+
+    overflow:hidden;
+
+}
+
+.service-card:hover{
+
+    transform:translateY(-12px);
+
+    box-shadow:0 25px 45px rgba(0,0,0,.18);
+
+}
+
+#gallery img{
+
+    transition:.4s;
+
+    border-radius:18px;
+
+}
+
+#gallery img:hover{
+
+    transform:scale(1.05);
+
+}
+
+.hero{
+    position:relative;
+    height:100vh;
+    overflow:hidden;
+    display:flex;
+    align-items:center;
+    color:#fff;
+}
+
+.hero-bg{
+    position:absolute;
+    top:0;
+    left:0;
+
+    width:100%;
+    height:100%;
+
+    object-fit:cover;
+    object-position:center center;
+
+    z-index:0;
+}
+
+.hero::after{
+    content:"";
+    position:absolute;
+    inset:0;
+    background:rgba(0,0,0,.45);
+    z-index:1;
+}
+
+.hero .container-fluid{
+    position:relative;
+    z-index:2;
+
+    padding-top:90px;
+}
+
+/*=============================
+SERVICE CARD
+==============================*/
+
+.service-card{
+
+    transition:.35s ease;
+
+    border-radius:20px;
+
+    overflow:hidden;
+
+}
+
+.service-card:hover{
+
+    transform:translateY(-12px);
+
+    box-shadow:0 25px 45px rgba(0,0,0,.18);
+
+}
+
+footer a{
+
+    transition:.3s;
+
+}
+
+footer a:hover{
+
+    color:#ffc107 !important;
+
+    padding-left:6px;
+
+}
+
+/*=====================================
+FLOATING WHATSAPP
+======================================*/
+
+.floating-wa{
+
+    position:fixed;
+
+    right:25px;
+
+    bottom:25px;
+
+    width:65px;
+
+    height:65px;
+
+    background:#25D366;
+
+    color:#fff;
+
+    border-radius:50%;
+
+    display:flex;
+
+    justify-content:center;
+
+    align-items:center;
+
+    text-decoration:none;
+
+    font-size:32px;
+
+    box-shadow:0 10px 25px rgba(0,0,0,.25);
+
+    transition:.3s;
+
+    z-index:999;
+
+}
+
+.floating-wa:hover{
+
+    transform:scale(1.08);
+
+    color:#fff;
+
+}
+
+/*=====================================
+SCROLL TO TOP
+======================================*/
+
+#scrollTopBtn{
+
+    position:fixed;
+
+    right:30px;
+
+    bottom:105px; /* tepat di atas WA */
+
+    width:55px;
+
+    height:55px;
+
+    border:none;
+
+    border-radius:50%;
+
+    background:#ffc107;
+
+    color:#fff;
+
+    font-size:22px;
+
+    display:flex;
+
+    justify-content:center;
+
+    align-items:center;
+
+    cursor:pointer;
+
+    box-shadow:0 10px 25px rgba(0,0,0,.18);
+
+    opacity:0;
+
+    visibility:hidden;
+
+    transform:translateY(20px);
+
+    transition:.35s;
+
+    z-index:998;
+
+}
+
+#scrollTopBtn.show{
+
+    opacity:1;
+
+    visibility:visible;
+
+    transform:translateY(0);
+
+}
+
+#scrollTopBtn:hover{
+
+    background:#e0a800;
+
+    transform:translateY(-5px);
+
+}
+
+/*=====================================
+ACTIVE MENU
+======================================*/
+
+.navbar .nav-link.active{
+
+    color:#f4b400;
+
+    font-weight:700;
+
+}
+
+/*=====================================
+NAVBAR
+======================================*/
+
+.navbar-custom{
+
+    background:transparent;
+
+    transition:.35s;
+
+    padding:18px 0;
+
+    position:fixed;
+
+    top:0;
+
+    left:0;
+
+    width:100%;
+
+    z-index:1050;
+
+}
+
+
+
+.navbar-custom.scrolled{
+
+    background:#ffffff;
+
+    box-shadow:0 5px 20px rgba(0,0,0,.08);
+
+    padding:12px 0;
+
+}
+
+.navbar-custom.scrolled .nav-link{
+
+    color:#212529;
+
+}
+
+/*=====================================
+ACTIVE MENU
+======================================*/
+
+/* Navbar transparan */
+.navbar-custom .nav-link.active{
+
+    color:#ffc107 !important;
+
+}
+
+/* Navbar putih */
+.navbar-custom.scrolled .nav-link.active{
+
+    color:#f59e0b !important;
+
+}
+
+.navbar-custom.scrolled .navbar-brand{
+
+    color:#212529;
+
+}
+
+
+
+.navbar-custom .navbar-brand{
+
+    color:#ffffff;
+
+}
+
+.navbar-custom .nav-link:hover{
+
+    color:#ffc107;
+
+}
+
+@keyframes fadeHero{
+
+    from{
+
+        opacity:0;
+
+        transform:translateY(40px);
+
+    }
+
+    to{
+
+        opacity:1;
+
+        transform:translateY(0);
+
+    }
+
+}
+
+/*=====================================
+FOOTER
+======================================*/
+
+
+
+footer p,
+footer h4,
+footer h5{
+
+    color:#ffffff;
+
+}
+
+.footer-link{
+
+    color:#ffffff;
+
+    text-decoration:none;
+
+    transition:.3s;
+
+}
+
+.footer-link:hover{
+
+    color:#ffc107;
+
+    padding-left:6px;
+
+
+}
+
+
+/*=====================================
+LOGO NAVBAR
+======================================*/
+
+.logo-title{
+
+    font-size:28px;
+
+    font-weight:700;
+
+    margin:0;
+
+    letter-spacing:.5px;
+
+    transition:.35s;
+
+    color:#fff;
+
+}
+
+.navbar-custom.scrolled .logo-title{
+
+    color:#212529;
+
+}
+
+
+
+.navbar-custom.scrolled .nav-link{
+
+    color:#212529;
+
+}
+
+.navbar-custom .nav-link:hover{
+
+    color:#ffc107;
+
+}
+
+/*==========================
+Floating WA Animation
+==========================*/
+
+.floating-wa{
+
+    animation:waFloat 2s ease-in-out infinite;
+
+}
+
+@keyframes waFloat{
+
+    0%{
+
+        transform:translateY(0);
+
+    }
+
+    50%{
+
+        transform:translateY(-10px);
+
+    }
+
+    100%{
+
+        transform:translateY(0);
+
+    }
+
+}
+
+/*=====================================
+FOOTER PREMIUM
+======================================*/
+
+.footer-section{
+
+    background:#1f1f1f;
+
+    color:#fff;
+
+    padding:80px 0 30px;
+
+}
+
+.footer-company{
+
+    font-size:30px;
+
+    font-weight:700;
+
+    margin-bottom:8px;
+
+}
+
+.footer-desc{
+
+    color:#cfcfcf;
+
+    line-height:1.9;
+
+    max-width:470px;
+
+}
+
+.footer-title{
+
+    font-size:22px;
+
+    font-weight:700;
+
+    margin-bottom:22px;
+
+}
+
+.footer-menu li,
+.footer-contact li{
+
+    margin-bottom:14px;
+
+}
+
+.footer-menu a,
+.footer-contact a{
+
+    display:inline-block;
+
+    color:#d6d6d6;
+
+    text-decoration:none;
+
+    transition:.3s;
+
+}
+
+.footer-menu a:hover,
+.footer-contact a:hover{
+
+    color:#ffc107;
+    transform:translateX(5px);
+    padding-left:8px;
+
+}
+
+.footer-contact i{
+
+    color:#ffc107;
+
+    width:26px;
+
+    display:inline-block;
+
+}
+
+.footer-line{
+
+    border-color:rgba(255,255,255,.12);
+
+    margin:45px 0 25px;
+
+}
+
+.footer-copy{
+
+    color:#bdbdbd;
+
+    font-size:15px;
+
+}
+
+@media(max-width:991px){
+
+    .footer-section{
+
+        text-align:center;
+
+    }
+
+    .footer-section .d-flex{
+
+        flex-direction:column;
+
+        align-items:center !important;
+
+    }
+
+    .footer-section img{
+
+        margin-right:0 !important;
+
+        margin-bottom:20px;
+
+    }
+
+    .footer-desc{
+
+        max-width:100%;
+
+    }
+
+    .footer-contact i{
+
+        width:auto;
+
+        margin-right:8px;
+
+    }
+
+}
+
+.btn{
+
+    border-radius:50px;
+
+    font-weight:600;
+
+}
+
+p{
+
+    line-height:1.8;
+
+}
+
+.badge{
+
+    font-size:15px;
+
+    border-radius:50px;
+
+    padding:10px 18px;
+
+}
+
+.gallery-card{
+
+    border-radius:22px;
+
+    overflow:hidden;
+
+    transition:.4s;
+
+    background:#fff;
+
+}
+
+.gallery-card:hover{
+
+    transform:translateY(-12px);
+
+    box-shadow:0 30px 60px rgba(0,0,0,.15);
+
+}
+
+.gallery-img{
+
+    width:100%;
+
+    height:270px;
+
+    object-fit:cover;
+
+    transition:.6s;
+
+}
+
+.gallery-card:hover .gallery-img{
+
+    transform:scale(1.08);
+
+}
+
+.gallery-card h6{
+
+    font-size:18px;
+
+}
+
+.gallery-card small{
+
+    font-size:14px;
+
+}
+
+/* =====================================
+GLIGHTBOX FIX
+===================================== */
+
+.gslide-image img{
+
+    width:auto !important;
+
+    height:auto !important;
+
+    max-width:95vw !important;
+
+    max-height:90vh !important;
+
+    object-fit:contain !important;
+
+    border-radius:0 !important;
+
+}
+
+.glightbox-container img{
+
+    border-radius:0 !important;
+
+}
+
+/* ===== FIX GLIGHTBOX ===== */
+
+.gslide-image img{
+
+    max-width:90vw !important;
+
+    max-height:90vh !important;
+
+    width:auto !important;
+
+    height:auto !important;
+
+    object-fit:contain !important;
+
+}
+
+.gslide-media{
+
+    display:flex !important;
+
+    justify-content:center !important;
+
+    align-items:center !important;
+
+}
+
+
+/*=====================================
+PRELOADER PREMIUM
+======================================*/
+
+#loader{
+
+    position:fixed;
+
+    inset:0;
+
+    background:#1f1f1f;
+
+    display:flex;
+
+    justify-content:center;
+
+    align-items:center;
+
+    z-index:999999;
+
+    transition:opacity .7s ease,
+               visibility .7s ease;
+
+}
+
+#loader{
+
+    position:fixed;
+
+    inset:0;
+
+    background:#ffffff;
+
+    z-index:99999;
+
+    display:flex;
+
+    justify-content:center;
+
+    align-items:center;
+
+    transition:opacity .6s ease, visibility .6s ease;
+
+}
+
+#loader.hide{
+
+    opacity:0;
+
+    visibility:hidden;
+
+    pointer-events:none;
+
+}
+
+.loader-content{
+
+    text-align:center;
+
+}
+
+.loader-logo{
+
+    width:90px;
+
+    margin-bottom:22px;
+
+    animation:floatLogo 2s ease-in-out infinite;
+
+}
+
+.loader-content h2{
+
+    color:#fff;
+
+    font-weight:700;
+
+    letter-spacing:1px;
+
+    margin-bottom:5px;
+
+}
+
+.loader-content p{
+
+    color:#bdbdbd;
+
+    margin-bottom:30px;
+
+    font-size:15px;
+
+    letter-spacing:2px;
+
+    text-transform:uppercase;
+
+}
+
+.loader-line{
+
+    width:220px;
+
+    height:4px;
+
+    background:#3a3a3a;
+
+    border-radius:20px;
+
+    overflow:hidden;
+
+    margin:auto;
+
+}
+
+.loader-line span{
+
+    display:block;
+
+    width:40%;
+
+    height:100%;
+
+    background:#ffc107;
+
+    border-radius:20px;
+
+    animation:loading 1.4s ease infinite;
+
+}
+
+@keyframes loading{
+
+    0%{
+
+        transform:translateX(-100%);
+
+    }
+
+    100%{
+
+        transform:translateX(300%);
+
+    }
+
+}
+
+@keyframes floatLogo{
+
+    0%{
+
+        transform:translateY(0);
+
+    }
+
+    50%{
+
+        transform:translateY(-10px);
+
+    }
+
+    100%{
+
+        transform:translateY(0);
+
+    }
+
+}
+
+
+/*=====================================
+HAMBURGER PREMIUM
+======================================*/
+
+.navbar-toggler{
+
+    width:46px;
+
+    height:46px;
+
+    display:flex;
+
+    flex-direction:column;
+
+    justify-content:center;
+
+    align-items:center;
+
+    gap:6px;
+
+    padding:0;
+
+    border:none;
+
+    background:transparent;
+
+}
+
+.navbar-toggler:focus{
+
+    box-shadow:none;
+
+}
+
+.navbar-toggler span{
+
+    width:28px;
+    height:3px;
+
+    background:#fff;
+
+    border-radius:20px;
+
+    transition:all .35s ease;
+
+    display:block;
+
+}
+
+.navbar-custom.scrolled .navbar-toggler span{
+
+    background:#222;
+
+}
+
+/*=====================================
+MENU OPEN
+======================================*/
+
+.navbar-toggler.active span:nth-child(1){
+
+    transform:translateY(9px) rotate(45deg);
+
+}
+
+.navbar-toggler.active span:nth-child(2){
+
+    opacity:0;
+
+}
+
+.navbar-toggler.active span:nth-child(3){
+
+    transform:translateY(-9px) rotate(-45deg);
+
+}
+
+/*=====================================
+HERO PREMIUM
+======================================*/
+
+.hero-title{
+
+    font-size:50px;
+
+    font-weight:800;
+
+    line-height:1.15;
+
+    letter-spacing:-1px;
+
+    color:#fff;
+
+}
+
+
+.hero-title span{
+
+    color:#ffc107;
+
+}
+
+
+
+.hero-text{
+    max-width:620px;
+    font-size:1.2rem;
+    line-height:1.9;
+    color:#f3f3f3;
+}
+
+
+
+
+/*=====================================
+BUTTON
+======================================*/
+
+.hero-buttons{
+
+    display:flex;
+
+    gap:18px;
+
+    flex-wrap:wrap;
+
+}
+
+
+.hero-buttons .btn{
+
+    border-radius:50px;
+
+    padding:15px 36px;
+
+    font-size:16px;
+
+    font-weight:600;
+
+    transition:.35s ease;
+
+}
+
+
+
+.hero-buttons .btn:hover{
+
+    transform:translateY(-5px);
+
+    box-shadow:0 15px 35px rgba(0,0,0,.25);
+
+}
+
+
+
+/* Tombol kedua */
+
+.hero-buttons .btn-outline-light{
+
+    background:rgba(255,255,255,.08);
+
+    backdrop-filter:blur(10px);
+
+}
+
+
+
+.hero-buttons .btn-outline-light:hover{
+
+    background:#fff;
+
+    color:#111;
+
+}
+
+
+
+
+
+@keyframes scrollMove{
+
+
+    0%{
+
+        opacity:1;
+
+        top:8px;
+
+    }
+
+
+    70%{
+
+        opacity:1;
+
+    }
+
+
+    100%{
+
+        opacity:0;
+
+        top:28px;
+
+    }
+
+}
+
+/*=====================================
+SECTION TITLE
+======================================*/
+
+.section-title{
+
+    display:flex;
+
+    align-items:center;
+
+    gap:15px;
+
+    margin-bottom:30px;
+
+}
+
+.section-title span{
+
+    width:60px;
+
+    height:3px;
+
+    background:#ffc107;
+
+    border-radius:50px;
+
+}
+
+.section-title small{
+
+    font-size:14px;
+
+    letter-spacing:3px;
+
+    font-weight:700;
+
+    color:#f4b400;
+
+}
+
+/*=====================================
+ABOUT FEATURES
+======================================*/
+
+.about-features{
+
+    margin-top:35px;
+
+    display:flex;
+
+    flex-direction:column;
+
+    gap:18px;
+
+}
+
+.feature-item{
+
+    display:flex;
+
+    align-items:center;
+
+    gap:14px;
+
+    font-size:17px;
+
+    font-weight:500;
+
+    color:#444;
+
+}
+
+.feature-item i{
+
+    color:#f4b400;
+
+    font-size:22px;
+
+    flex-shrink:0;
+
+}
+
+section{
+    padding-top: 100px;
+    padding-bottom: 100px;
+}
+
+#services{
+    min-height:100vh;
+}
+
+/*=====================================
+SERVICES BACKGROUND DECORATION
+======================================*/
+
+#services{
+    position:relative;
+    overflow:hidden;
+    background:#f8f9fa;
+}
+
+
+
+/* Semua isi berada di atas dekorasi */
+
+#services .container{
+
+    position:relative;
+
+    z-index:2;
+
+}
+
+#gallery{
+    padding-top: 120px;
+}
+
+
+
+/*=====================================
+GALLERY HEADER PREMIUM
+======================================*/
+
+.gallery-header{
+
+    text-align:center;
+
+    margin-bottom:70px;
+
+}
+
+.gallery-header small{
+
+    letter-spacing:3px;
+
+}
+
+.gallery-header h2{
+
+    margin-top:10px;
+
+    margin-bottom:18px;
+
+}
+
+.gallery-divider{
+
+    display:flex;
+
+    align-items:center;
+
+    justify-content:center;
+
+    gap:25px;
+
+}
+
+.gallery-divider span{
+
+    width:180px;
+
+    height:2px;
+
+    background:#dddddd;
+
+}
+
+.gallery-icon{
+
+    width:70px;
+
+    height:70px;
+
+    border-radius:50%;
+
+    background:#fff;
+
+    display:flex;
+
+    align-items:center;
+
+    justify-content:center;
+
+    box-shadow:0 15px 35px rgba(0,0,0,.08);
+
+}
+
+.gallery-icon i{
+
+    font-size:30px;
+
+    color:#ffc107;
+
+}
+
+.gallery-header{
+    text-align: center;
+    margin-bottom: 60px;
+}
+
+.section-line{
+    display: block;
+    width: 80px;
+    height: 4px;
+    background: #ffc107;
+    border-radius: 999px;
+    margin: 0 auto 18px;
+}
+
+.footer-contact li a{
+
+    display:flex;
+
+    align-items:center;
+
+    gap:10px;
+
+    color:#bfbfbf;
+
+    text-decoration:none;
+
+    transition:.3s;
+
+}
+
+.footer-contact li a:hover{
+
+    color:#ffc107;
+
+    transform:translateX(8px);
+
+}
