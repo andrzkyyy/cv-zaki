@@ -76,26 +76,29 @@
 </div>
 
                 <h2 class="section-heading">
-                    Mitra Konstruksi &
-                    Pengadaan Barang/Jasa
-                    yang Profesional
+                 CV. ZAKI,
+                 Mitra Terpercaya
+                 Dalam Berbagai Bidang Usaha
                 </h2>
 
                 <p>
 
-                    CV. ZAKI merupakan perusahaan yang berdiri pada tahun 2012
-                    dan berkedudukan di Kabupaten Halmahera Tengah. Perusahaan
-                    bergerak di bidang jasa konstruksi, perdagangan, perbengkelan,
-                    serta catering makanan dengan komitmen memberikan pelayanan profesional,
-                    berkualitas, dan terpercaya.
+                    CV. ZAKI merupakan perusahaan yang berdiri sejak
+                    tahun <strong>2012</strong> dan bergerak di bidang
+                    <strong>jasa konstruksi, perdagangan, perbengkelan,
+                    serta catering makanan</strong>.
+                    Kami berkomitmen memberikan pelayanan yang profesional,
+                    berkualitas, terpercaya, dan berorientasi pada kepuasan pelanggan.
 
                 </p>
 
                 <p>
 
-                    Dengan pengalaman menangani berbagai pekerjaan konstruksi
-                    dan pengadaan barang/jasa, CV. ZAKI terus mengedepankan ketepatan
-                    waktu, kualitas pekerjaan, serta kepuasan pelanggan sebagai prioritas utama.
+                    Dengan pengalaman dalam berbagai proyek dan layanan,
+                    CV. ZAKI senantiasa mengedepankan kualitas pekerjaan,
+                    ketepatan waktu, serta tanggung jawab dalam setiap
+                    pelaksanaan pekerjaan guna membangun hubungan jangka
+                    panjang dengan seluruh mitra dan pelanggan.
                 </p>
 
                 <div class="about-features">
@@ -107,12 +110,12 @@
 
     <div class="feature-item">
         <i class="bi bi-check-circle-fill"></i>
-        <span>Tepat Waktu dalam Pengerjaan</span>
+        <span>Pelayanan Berkualitas dan Terpercaya</span>
     </div>
 
     <div class="feature-item">
         <i class="bi bi-check-circle-fill"></i>
-        <span>Berorientasi pada Kepuasan Klien</span>
+        <span>Mengutamakan Kepuasan Pelanggan</span>
     </div>
 
 </div>
@@ -146,15 +149,14 @@
      data-aos="fade-up"
      data-aos-delay="100">
 
-                <h1 class="display-5 fw-bold text-white counter"
-    data-target="2"
-    data-suffix="+">
+               <h1 class="display-5 fw-bold text-white counter"
+    data-target="2012">
     0
 </h1>
 
-                <p class="text-white mb-0">
-                    Tenaga Kerja
-                </p>
+<p class="text-white mb-0">
+    Tahun Berdiri
+</p>
 
             </div>
 
@@ -162,15 +164,14 @@
      data-aos="fade-up"
      data-aos-delay="200">
 
-                <h1 class="display-5 fw-bold text-white counter"
-    data-target="10 "
-    data-suffix="+">
+<h1 class="display-5 fw-bold text-white counter"
+    data-target="4">
     0
 </h1>
 
-                <p class="text-white mb-0">
-                    Proyek
-                </p>
+<p class="text-white mb-0">
+    Bidang Usaha
+</p>
 
             </div>
 
@@ -238,16 +239,38 @@
 
                     <div class="display-4 text-warning">
 
+    <i class="bi bi-person-workspace"></i>
+
+</div>
+
+                    <h5 class="fw-bold mt-3">
+                        Profesional
+                    </h5>
+
+                    <p>
+                        Didukung oleh sumber daya yang profesional dan berpengalaman dalam memberikan pelayanan terbaik di setiap pekerjaan.
+                    </p>
+
+                </div>
+
+            </div>
+
+            <div class="col-md-4">
+
+                <div class="card border-0 shadow h-100 p-4 text-center service-card">
+
+                    <div class="display-4 text-warning">
+
     <i class="bi bi-award-fill"></i>
 
 </div>
 
                     <h5 class="fw-bold mt-3">
-                        Berkualitas
+                        Kualitas Terbaik
                     </h5>
 
                     <p>
-                        Mengutamakan kualitas pekerjaan sesuai standar.
+                        Kami selalu mengutamakan kualitas pekerjaan dan pelayanan agar setiap proyek memberikan hasil yang maksimal.
                     </p>
 
                 </div>
@@ -260,38 +283,16 @@
 
                     <div class="display-4 text-warning">
 
-    <i class="bi bi-clock-history"></i>
+    <i class="bi bi-hand-thumbs-up"></i>
 
 </div>
 
                     <h5 class="fw-bold mt-3">
-                        Tepat Waktu
+                        Kepuasan Pelanggan
                     </h5>
 
                     <p>
-                        Menyelesaikan pekerjaan sesuai target yang telah disepakati.
-                    </p>
-
-                </div>
-
-            </div>
-
-            <div class="col-md-4">
-
-                <div class="card border-0 shadow h-100 p-4 text-center service-card">
-
-                    <div class="display-4 text-warning">
-
-    <i class="bi bi-shield-check"></i>
-
-</div>
-
-                    <h5 class="fw-bold mt-3">
-                        Terpercaya
-                    </h5>
-
-                    <p>
-                        Menjalin hubungan jangka panjang dengan setiap klien.
+                        Kepuasan pelanggan menjadi prioritas utama melalui pelayanan yang terpercaya, bertanggung jawab, dan tepat waktu.
                     </p>
 
                 </div>
@@ -411,7 +412,7 @@
                 <div class="card h-100 border-0 shadow service-card text-center p-4">
 
                    <div class="service-icon mb-3 text-warning">
-    <i class="bi bi-box-seam"></i>
+    <i class="bi bi-building-fill-gear"></i>
 </div>
 
                     <h5 class="fw-bold">
@@ -419,8 +420,8 @@
                     </h5>
 
                     <p class="text-muted mt-3">
-                        Melayani pembangunan gedung,
-                        rumah, jalan, dan berbagai
+                        Melayani pembangunan gedung, jalan,
+                        jembatan, renovasi, serta berbagai 
                         pekerjaan konstruksi lainnya.
                     </p>
 
@@ -431,7 +432,7 @@
                 <div class="card h-100 border-0 shadow service-card text-center p-4">
 
                     <div class="service-icon mb-3 text-warning">
-    <i class="bi bi-building"></i>
+    <i class="bi bi-truck"></i>
 </div>
 
                     <h5 class="fw-bold">
@@ -439,9 +440,9 @@
                     </h5>
 
                     <p class="text-muted mt-3">
-                        Menyediakan berbagai kebutuhan
-                        barang sesuai spesifikasi
-                        dan kebutuhan instansi.
+                        Menyediakan berbagai kebutuhan barang
+                        sesuai spesifikasi dan kebutuhan pelanggan
+                        maupun instansi.
                     </p>
 
                 </div>
@@ -451,18 +452,17 @@
                 <div class="card h-100 border-0 shadow service-card text-center p-4">
 
                     <div class="service-icon mb-3 text-warning">
-    <i class="bi bi-cone-striped"></i>
+    <i class="bi bi-tools"></i>
 </div>
 
                     <h5 class="fw-bold">
-                        Renovasi Bangunan
+                        Perbengkelan
                     </h5>
 
                     <p class="text-muted mt-3">
-                        Renovasi rumah,
-                        kantor,
-                        sekolah,
-                        dan fasilitas umum.
+                        Melayani pekerjaan perbengkelan
+                        dan perawatan berbagai peralatan
+                        secara profesional.
                     </p>
 
                 </div>
@@ -472,18 +472,17 @@
                 <div class="card h-100 border-0 shadow service-card text-center p-4">
 
                  <div class="service-icon mb-3 text-warning">
-    <i class="bi bi-building-gear"></i>
+    <i class="bi bi-fork-knife"></i>
 </div>
 
                     <h5 class="fw-bold">
-                        Pekerjaan Sipil
+                        Catering Makan
                     </h5>
 
                     <p class="text-muted mt-3">
-                        Pengerjaan jalan,
-                        drainase,
-                        paving,
-                        dan infrastruktur lainnya.
+                        Menyediakan layanan catering
+                        makanan dengan kualitas terbaik
+                        untuk berbagai kegiatan dan kebutuhan.
                     </p>
 
                 </div>
@@ -762,15 +761,17 @@
 
                 <h2 class="fw-bold text-white mb-3">
 
-                    Siap Bekerja Sama Dengan Kami?
+                    Siap Menjadi Mitra Terbaik Anda?
 
                 </h2>
 
                 <p class="text-white mb-0">
 
-                     CV. ZAKI siap membantu pekerjaan konstruksi,
-                    pembangunan, renovasi, serta pengadaan barang dan jasa
-                    dengan pelayanan profesional, berkualitas, dan terpercaya.
+                    CV. ZAKI siap menjadi mitra terpercaya
+                    dalam bidang jasa konstruksi, perdagangan,
+                    perbengkelan, dan catering makanan dengan 
+                    mengedepankan kualitas, profesionalisme, 
+                    serta kepuasan pelanggan.
                 </p>
 
             </div>

@@ -26,10 +26,11 @@
 
                         <p class="footer-desc">
 
-                            Perusahaan yang bergerak di bidang jasa konstruksi
-                            dan pengadaan barang/jasa dengan komitmen memberikan
-                            pelayanan profesional, berkualitas, tepat waktu,
-                            serta mengutamakan kepuasan pelanggan.
+                            Merupakan perusahaan yang bergerak
+                            di bidang jasa konstruksi, pengadaan barang,
+                            perbengkelan, dan catering makanan dengan
+                            komitmen memberikan pelayanan profesional,
+                            berkualitas, dan terpercaya.
 
                         </p>
 
