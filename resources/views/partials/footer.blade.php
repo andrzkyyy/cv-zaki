@@ -129,12 +129,14 @@
 
 <li>
 
-    <a href="https://maps.google.com/?q=Weda,Halmahera+Tengah"
-       target="_blank">
+    <a href="https://maps.google.com/?q=Desa+Nurweda,+Kecamatan+Weda,+Halmahera+Tengah"
+       target="_blank"
+       rel="noopener noreferrer">
 
         <i class="bi bi-geo-alt-fill"></i>
 
-        Weda, Halmahera Tengah
+        Desa Nurweda, Kecamatan Weda<br>
+        Kode Pos 97853
 
     </a>
 
