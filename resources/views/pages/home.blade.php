@@ -530,28 +530,28 @@
 
         <div class="gallery-card shadow rounded-4 overflow-hidden bg-white">
 
-            <a href="https://images.unsplash.com/photo-1504307651254-35680f356dfd?auto=format&fit=crop&w=1600&q=80"
-   class="glightbox"
-   data-gallery="projects"
-   data-type="image">
+             <a href="https://images.unsplash.com/photo-1504307651254-35680f356dfd?auto=format&fit=crop&w=1600&q=80"
+           class="glightbox"
+           data-gallery="projects"
+           data-type="image">
 
-    <img src="https://images.unsplash.com/photo-1504307651254-35680f356dfd?auto=format&fit=crop&w=700&q=80"
-         class="gallery-img"
-         alt="Pembangunan Gedung">
+            <img src="https://images.unsplash.com/photo-1504307651254-35680f356dfd?auto=format&fit=crop&w=700&q=80"
+                 class="gallery-img"
+                 alt="Jasa Konstruksi">
 
-</a>
+        </a>
 
             <div class="p-3">
 
                 <h6 class="fw-bold mb-1">
-                    Pembangunan Gedung
+                    jasa konstruksi
                 </h6>
 
                 <small class="text-muted">
 
-                    <i class="bi bi-geo-alt-fill text-warning"></i>
+                    
 
-                    Weda, Halmahera Tengah
+                    Dokumentasi pekerjaan konstruksi
 
                 </small>
 
@@ -566,27 +566,27 @@
 
         <div class="gallery-card shadow rounded-4 overflow-hidden bg-white">
 
-<a href="https://images.unsplash.com/photo-1504307651254-35680f356dfd?auto=format&fit=crop&w=1600&q=80"
-   class="glightbox"
-   data-gallery="projects"
-   data-type="image">
+ <a href="https://images.unsplash.com/photo-1541888946425-d81bb19240f5?auto=format&fit=crop&w=1600&q=80"
+           class="glightbox"
+           data-gallery="projects"
+           data-type="image">
 
-    <img src="https://images.unsplash.com/photo-1504307651254-35680f356dfd?auto=format&fit=crop&w=700&q=80"
-         class="gallery-img"
-         alt="Pembangunan Gedung">
+            <img src="https://images.unsplash.com/photo-1541888946425-d81bb19240f5?auto=format&fit=crop&w=700&q=80"
+                 class="gallery-img"
+                 alt="Pembangunan Gedung">
 
-</a>
+        </a>
             <div class="p-3">
 
                 <h6 class="fw-bold mb-1">
-                    Pekerjaan Jalan
+                    Pembangunan Gedung
                 </h6>
 
                 <small class="text-muted">
 
-                    <i class="bi bi-geo-alt-fill text-warning"></i>
+                   
 
-                    Weda, Halmahera Tengah
+                     Kegiatan pembangunan gedung
 
                 </small>
 
@@ -601,28 +601,29 @@
 
         <div class="gallery-card shadow rounded-4 overflow-hidden bg-white">
 
-            <a href="https://images.unsplash.com/photo-1504307651254-35680f356dfd?auto=format&fit=crop&w=1600&q=80"
-   class="glightbox"
-   data-gallery="projects"
-   data-type="image">
+                    <a href="https://images.unsplash.com/photo-1586528116311-ad8dd3c8310d?auto=format&fit=crop&w=1600&q=80"
+           class="glightbox"
+           data-gallery="projects"
+           data-type="image">
 
-    <img src="https://images.unsplash.com/photo-1504307651254-35680f356dfd?auto=format&fit=crop&w=700&q=80"
-         class="gallery-img"
-         alt="Pembangunan Gedung">
+            <img src="https://images.unsplash.com/photo-1586528116311-ad8dd3c8310d?auto=format&fit=crop&w=700&q=80"
+                 class="gallery-img"
+                 alt="Pengadaan Barang">
 
-</a>
+        </a>
+
 
             <div class="p-3">
 
                 <h6 class="fw-bold mb-1">
-                    Renovasi Bangunan
+                    Pengadaan Barang
                 </h6>
 
                 <small class="text-muted">
 
-                    <i class="bi bi-geo-alt-fill text-warning"></i>
+                    
 
-                    Weda, Halmahera Tengah
+                   Pengadaan dan penyediaan barang
 
                 </small>
 
@@ -637,28 +638,29 @@
 
         <div class="gallery-card shadow rounded-4 overflow-hidden bg-white">
 
-<a href="https://images.unsplash.com/photo-1504307651254-35680f356dfd?auto=format&fit=crop&w=1600&q=80"
-   class="glightbox"
-   data-gallery="projects"
-   data-type="image">
+<a href="https://images.unsplash.com/photo-1487754180451-c456f719a1fc?auto=format&fit=crop&w=1600&q=80"
+           class="glightbox"
+           data-gallery="projects"
+           data-type="image">
 
-    <img src="https://images.unsplash.com/photo-1504307651254-35680f356dfd?auto=format&fit=crop&w=700&q=80"
-         class="gallery-img"
-         alt="Pembangunan Gedung">
+            <img src="https://images.unsplash.com/photo-1487754180451-c456f719a1fc?auto=format&fit=crop&w=700&q=80"
+                 class="gallery-img"
+                 alt="Perbengkelan">
 
-</a>
+        </a>
 
             <div class="p-3">
 
                 <h6 class="fw-bold mb-1">
-                    Pembangunan Kantor
+                  Perbengkelan
                 </h6>
 
                 <small class="text-muted">
 
-                    <i class="bi bi-geo-alt-fill text-warning"></i>
+                    
 
-                    Weda, Halmahera Tengah
+                 Pekerjaan perbengkelan dan perawatan
+
 
                 </small>
 
@@ -673,28 +675,28 @@
 
         <div class="gallery-card shadow rounded-4 overflow-hidden bg-white">
 
-<a href="https://images.unsplash.com/photo-1504307651254-35680f356dfd?auto=format&fit=crop&w=1600&q=80"
-   class="glightbox"
-   data-gallery="projects"
-   data-type="image">
+<a href="https://images.unsplash.com/photo-1556911220-e15b29be8c8f?auto=format&fit=crop&w=1600&q=80"
+           class="glightbox"
+           data-gallery="projects"
+           data-type="image">
 
-    <img src="https://images.unsplash.com/photo-1504307651254-35680f356dfd?auto=format&fit=crop&w=700&q=80"
-         class="gallery-img"
-         alt="Pembangunan Gedung">
+            <img src="https://images.unsplash.com/photo-1556911220-e15b29be8c8f?auto=format&fit=crop&w=700&q=80"
+                 class="gallery-img"
+                 alt="Catering Makanan">
 
-</a>
+        </a>
 
             <div class="p-3">
 
                 <h6 class="fw-bold mb-1">
-                    Pengadaan Barang
+                    Catering Makanan
                 </h6>
 
                 <small class="text-muted">
 
-                    <i class="bi bi-geo-alt-fill text-warning"></i>
+                    
 
-                    Weda, Halmahera Tengah
+                    Penyediaan makanan dan catering
 
                 </small>
 
@@ -709,28 +711,28 @@
 
         <div class="gallery-card shadow rounded-4 overflow-hidden bg-white">
 
-           <a href="https://images.unsplash.com/photo-1504307651254-35680f356dfd?auto=format&fit=crop&w=1600&q=80"
-   class="glightbox"
-   data-gallery="projects"
-   data-type="image">
+                   <a href="https://images.unsplash.com/photo-1521737711867-e3b97375f902?auto=format&fit=crop&w=1600&q=80"
+           class="glightbox"
+           data-gallery="projects"
+           data-type="image">
 
-    <img src="https://images.unsplash.com/photo-1504307651254-35680f356dfd?auto=format&fit=crop&w=700&q=80"
-         class="gallery-img"
-         alt="Pembangunan Gedung">
+            <img src="https://images.unsplash.com/photo-1521737711867-e3b97375f902?auto=format&fit=crop&w=700&q=80"
+                 class="gallery-img"
+                 alt="Dokumentasi Kegiatan">
 
-</a>
+        </a>
 
             <div class="p-3">
 
                 <h6 class="fw-bold mb-1">
-                    Hasil Akhir Proyek
+                    Dokumentasi Kegiatan
                 </h6>
 
                 <small class="text-muted">
 
-                    <i class="bi bi-geo-alt-fill text-warning"></i>
+                    
 
-                    Weda, Halmahera Tengah
+                    Dokumentasi aktivitas CV.ZAKI
 
                 </small>
 
