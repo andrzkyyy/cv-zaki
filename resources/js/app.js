@@ -71,8 +71,10 @@ document.addEventListener("DOMContentLoaded", () => {
 /*==============================================
 NAVBAR SCROLL + ACTIVE MENU
 ==============================================*/
-
+let manualNavClick = false;
 function updateNavbar() {
+
+    if (manualNavClick) return;
 
     if (navbar) {
 
@@ -103,19 +105,82 @@ function updateNavbar() {
 
     navLinks.forEach(link => {
 
-        link.classList.remove("active");
+    link.addEventListener("click", function (e) {
 
-        if (
-            link.getAttribute("href") === "#" + current
-        ) {
+        const targetId = this.getAttribute("href");
+        const target = document.querySelector(targetId);
 
-            link.classList.add("active");
+        if (!target) return;
+
+        e.preventDefault();
+
+        /* ==============================
+           KUNCI ACTIVE SAAT KLIK
+        ============================== */
+
+        manualNavClick = true;
+
+        navLinks.forEach(navLink => {
+            navLink.classList.remove("active");
+        });
+
+        this.classList.add("active");
+
+
+        /* ==============================
+           SMOOTH SCROLL
+        ============================== */
+
+        const navbarHeight = navbar
+            ? navbar.offsetHeight
+            : 0;
+
+        window.scrollTo({
+
+            top: target.offsetTop - navbarHeight,
+
+            behavior: "smooth"
+
+        });
+
+
+        /* ==============================
+           TUTUP MENU MOBILE
+        ============================== */
+
+        if (navbarCollapse) {
+
+            const collapse =
+                bootstrap.Collapse.getOrCreateInstance(
+                    navbarCollapse
+                );
+
+            collapse.hide();
 
         }
 
+
+        /* ==============================
+           LEPAS KUNCI SETELAH SCROLL
+        ============================== */
+
+        setTimeout(() => {
+
+            manualNavClick = false;
+
+            updateNavbar();
+
+        }, 1000);
+
     });
 
+});
+
 }
+
+window.addEventListener("scroll", updateNavbar);
+updateNavbar();
+
 
 
     /*==============================================
