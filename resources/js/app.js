@@ -69,41 +69,70 @@ document.addEventListener("DOMContentLoaded", () => {
     }
 
     /*==============================================
-    NAVBAR SCROLL + ACTIVE MENU
-    ==============================================*/
+NAVBAR SCROLL + ACTIVE MENU
+==============================================*/
 
-    function updateNavbar() {
+let clickedNavLink = null;
+let isAutoScrolling = false;
 
-        if (navbar) {
+function updateNavbar() {
 
-            navbar.classList.toggle("scrolled", window.scrollY > 0);
+    if (navbar) {
 
-        }
-
-        let current = "";
-
-        sections.forEach(section => {
-
-            if (window.scrollY >= section.offsetTop - 120) {
-
-                current = section.dataset.section || section.id;
-
-            }
-
-        });
-
-        navLinks.forEach(link => {
-
-            link.classList.toggle(
-                "active",
-                link.getAttribute("href") === "#" + current
-            );
-
-        });
+        navbar.classList.toggle(
+            "scrolled",
+            window.scrollY > 0
+        );
 
     }
 
+    /* Jangan ubah active ketika sedang smooth scroll
+       akibat klik menu */
+
+    if (isAutoScrolling) {
+        return;
+    }
+
+    let current = "";
+
+    sections.forEach(section => {
+
+        const sectionTop = section.offsetTop;
+        const sectionHeight = section.offsetHeight;
+
+        if (
+            window.scrollY >= sectionTop - 150 &&
+            window.scrollY < sectionTop + sectionHeight - 150
+        ) {
+
+            current = section.dataset.section || section.id;
+
+        }
+
+    });
+
+    navLinks.forEach(link => {
+
+        link.classList.toggle(
+            "active",
+            link.getAttribute("href") === "#" + current
+        );
+
+    });
+
+}
+
+window.addEventListener("scroll", updateNavbar);
+
+updateNavbar();
+
+
+    /* UPDATE SAAT SCROLL */
+
     window.addEventListener("scroll", updateNavbar);
+
+
+    /* UPDATE SAAT PERTAMA KALI LOAD */
 
     updateNavbar();
 
@@ -184,41 +213,83 @@ document.addEventListener("DOMContentLoaded", () => {
 
 
 /*==============================================
-SMOOTH SCROLL + AUTO CLOSE MOBILE MENU
+SMOOTH SCROLL + ACTIVE MENU
 ==============================================*/
 
-document.querySelectorAll('a[href^="#"]').forEach(link => {
+document.querySelectorAll(".navbar .nav-link").forEach(link => {
 
-    link.addEventListener("click", function(e){
+    link.addEventListener("click", function (e) {
 
-        const target = document.querySelector(this.getAttribute("href"));
+        const targetId = this.getAttribute("href");
+        const target = document.querySelector(targetId);
 
-        if(!target) return;
+        if (!target) return;
 
         e.preventDefault();
 
-        const navbarHeight = navbar.offsetHeight;
+        /* ==========================================
+           LANGSUNG AKTIFKAN MENU YANG DIKLIK
+        ========================================== */
 
-window.scrollTo({
+        navLinks.forEach(navLink => {
+            navLink.classList.remove("active");
+        });
 
-    top: target.offsetTop - navbarHeight,
+        this.classList.add("active");
 
-    behavior:"smooth"
 
-});
+        /* ==========================================
+           KUNCI ACTIVE SELAMA SMOOTH SCROLL
+        ========================================== */
 
-        if(navbarCollapse){
+        isAutoScrolling = true;
+
+
+        /* ==========================================
+           SMOOTH SCROLL
+        ========================================== */
+
+        const navbarHeight = navbar
+            ? navbar.offsetHeight
+            : 0;
+
+        window.scrollTo({
+
+            top: target.offsetTop - navbarHeight,
+
+            behavior: "smooth"
+
+        });
+
+
+        /* ==========================================
+           TUTUP MENU MOBILE
+        ========================================== */
+
+        if (navbarCollapse) {
 
             const collapse =
-                bootstrap.Collapse.getInstance(navbarCollapse);
+                bootstrap.Collapse.getOrCreateInstance(
+                    navbarCollapse
+                );
 
-            if(collapse){
-
-                collapse.hide();
-
-            }
+            collapse.hide();
 
         }
+
+
+        /* ==========================================
+           BUKA KEMBALI UPDATE ACTIVE
+           SETELAH SCROLL SELESAI
+        ========================================== */
+
+        setTimeout(() => {
+
+            isAutoScrolling = false;
+
+            updateNavbar();
+
+        }, 800);
 
     });
 

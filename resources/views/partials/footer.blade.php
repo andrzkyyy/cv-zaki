@@ -78,88 +78,59 @@
 
                     </div>
 
-                    <!-- KONTAK -->
-                    <div class="col-7">
+<!-- KONTAK -->
+<div class="col-7">
 
-                        <h5 class="footer-title">
+    <h5 class="footer-title footer-contact-title">
 
-                            Kontak
+        Kontak
 
-                        </h5>
+    </h5>
 
-                        <ul class="list-unstyled footer-contact">
+    <ul class="list-unstyled footer-contact">
 
-<li>
+        <li>
+            <a href="mailto:zakicv2012@gmail.com">
+                <i class="bi bi-envelope-fill"></i>
+                zakicv2012@gmail.com
+            </a>
+        </li>
 
-    <a href="mailto:zakicv2012@gmail.com">
+        <li>
+            <a href="https://www.instagram.com/cvzaki2012/"
+               target="_blank"
+               rel="noopener noreferrer">
 
-        <i class="bi bi-envelope-fill"></i>
+                <i class="bi bi-instagram"></i>
+                @cvzaki
 
-        zakicv2012@gmail.com
+            </a>
+        </li>
 
-    </a>
+        <li>
+            <a href="tel:+6281243579997">
 
-</li>
+                <i class="bi bi-telephone-fill"></i>
+                +6281243579997
 
-<li>
+            </a>
+        </li>
 
-    <a href="https://www.instagram.com/cvzaki2012/"
-       target="_blank"
-       rel="noopener noreferrer">
+        <li>
+            <a href="https://maps.google.com/?q=Desa+Nurweda,+Kecamatan+Weda,+Halmahera+Tengah"
+               target="_blank"
+               rel="noopener noreferrer">
 
-        <i class="bi bi-instagram"></i>
+                <i class="bi bi-geo-alt-fill"></i>
 
-        @cvzaki
+                Desa Nurweda, Kecamatan Weda<br>
+                Kode Pos 97853
 
-    </a>
+            </a>
+        </li>
 
-</li>
+    </ul>
 
-<li>
-
-    <a href="tel:+6281243579997">
-
-        <i class="bi bi-telephone-fill"></i>
-
-        +6281243579997
-
-    </a>
-
-</li>
-
-<li>
-
-    <a href="https://maps.google.com/?q=Desa+Nurweda,+Kecamatan+Weda,+Halmahera+Tengah"
-       target="_blank"
-       rel="noopener noreferrer">
-
-        <i class="bi bi-geo-alt-fill"></i>
-
-        Desa Nurweda, Kecamatan Weda<br>
-        Kode Pos 97853
-
-    </a>
-
-</li>
-
-                        </ul>
-
-                    </div>
-
-                </div>
-
-            </div>
-
-        </div>
-
-        <hr class="footer-line">
-
-        <div class="text-center footer-copy">
-
-            © {{ date('Y') }} <strong>CV. ZAKI</strong> | All Rights Reserved
-
-        </div>
-
-    </div>
+</div>
 
 </footer>

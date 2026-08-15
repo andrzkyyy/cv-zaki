@@ -143,47 +143,47 @@
     <div class="container ps-lg-2">
         <div class="dot-pattern"></div>
 
-        <div class="row text-center">
+        <div class="row text-center statistics-row">
 
-            <div class="col-md-3"
-     data-aos="fade-up"
-     data-aos-delay="100">
+            <div class="col-md-3 statistics-item"
+                 data-aos="fade-up"
+                 data-aos-delay="100">
 
-               <h1 class="display-5 fw-bold text-white counter"
-    data-target="2012">
-    0
-</h1>
+                <h1 class="display-5 fw-bold text-white counter"
+                    data-target="2012">
+                    0
+                </h1>
 
-<p class="text-white mb-0">
-    Tahun Berdiri
-</p>
-
-            </div>
-
-            <div class="col-md-3"
-     data-aos="fade-up"
-     data-aos-delay="200">
-
-<h1 class="display-5 fw-bold text-white counter"
-    data-target="4">
-    0
-</h1>
-
-<p class="text-white mb-0">
-    Bidang Usaha
-</p>
+                <p class="text-white mb-0">
+                    Tahun Berdiri
+                </p>
 
             </div>
 
-            <div class="col-md-3"
-     data-aos="fade-up"
-     data-aos-delay="300">
+            <div class="col-md-3 statistics-item"
+                 data-aos="fade-up"
+                 data-aos-delay="200">
 
-               <h1 class="display-5 fw-bold text-white counter"
-    data-target="100 "
-    data-suffix="%">
-    0
-</h1>
+                <h1 class="display-5 fw-bold text-white counter"
+                    data-target="4">
+                    0
+                </h1>
+
+                <p class="text-white mb-0">
+                    Bidang Usaha
+                </p>
+
+            </div>
+
+            <div class="col-md-3 statistics-item"
+                 data-aos="fade-up"
+                 data-aos-delay="300">
+
+                <h1 class="display-5 fw-bold text-white counter"
+                    data-target="100"
+                    data-suffix="%">
+                    0
+                </h1>
 
                 <p class="text-white mb-0">
                     Komitmen
@@ -191,15 +191,15 @@
 
             </div>
 
-            <div class="col-md-3"
-     data-aos="fade-up"
-     data-aos-delay="400">
+            <div class="col-md-3 statistics-item"
+                 data-aos="fade-up"
+                 data-aos-delay="400">
 
-               <h1 class="display-5 fw-bold text-white counter"
-    data-target="24"
-    data-suffix=" / 7">
-    0
-</h1>
+                <h1 class="display-5 fw-bold text-white counter"
+                    data-target="24"
+                    data-suffix=" / 7">
+                    0
+                </h1>
 
                 <p class="text-white mb-0">
                     Pelayanan
