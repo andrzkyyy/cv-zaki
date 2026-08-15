@@ -2730,35 +2730,3 @@ body {
         word-break: normal !important;
     }
 }
-/* ===============================
-   MOBILE FLOATING BUTTONS
-   =============================== */
-
-@media (max-width: 767px) {
-
-    /* Tombol kembali ke atas */
-    .back-to-top {
-        width: 58px !important;
-        height: 58px !important;
-
-        right: 14px !important;
-        bottom: 82px !important;
-
-        font-size: 24px !important;
-
-        z-index: 999 !important;
-    }
-
-    /* Tombol WhatsApp */
-    .whatsapp-float {
-        width: 58px !important;
-        height: 58px !important;
-
-        right: 14px !important;
-        bottom: 14px !important;
-
-        font-size: 28px !important;
-
-        z-index: 999 !important;
-    }
-}

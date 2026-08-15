@@ -68,12 +68,9 @@ document.addEventListener("DOMContentLoaded", () => {
 
     }
 
-    /*==============================================
+/*==============================================
 NAVBAR SCROLL + ACTIVE MENU
 ==============================================*/
-
-let clickedNavLink = null;
-let isAutoScrolling = false;
 
 function updateNavbar() {
 
@@ -84,13 +81,6 @@ function updateNavbar() {
             window.scrollY > 0
         );
 
-    }
-
-    /* Jangan ubah active ketika sedang smooth scroll
-       akibat klik menu */
-
-    if (isAutoScrolling) {
-        return;
     }
 
     let current = "";
@@ -113,28 +103,20 @@ function updateNavbar() {
 
     navLinks.forEach(link => {
 
-        link.classList.toggle(
-            "active",
+        link.classList.remove("active");
+
+        if (
             link.getAttribute("href") === "#" + current
-        );
+        ) {
+
+            link.classList.add("active");
+
+        }
 
     });
 
 }
 
-window.addEventListener("scroll", updateNavbar);
-
-updateNavbar();
-
-
-    /* UPDATE SAAT SCROLL */
-
-    window.addEventListener("scroll", updateNavbar);
-
-
-    /* UPDATE SAAT PERTAMA KALI LOAD */
-
-    updateNavbar();
 
     /*==============================================
     COUNTER
@@ -216,7 +198,7 @@ updateNavbar();
 SMOOTH SCROLL + ACTIVE MENU
 ==============================================*/
 
-document.querySelectorAll(".navbar .nav-link").forEach(link => {
+navLinks.forEach(link => {
 
     link.addEventListener("click", function (e) {
 
@@ -227,45 +209,24 @@ document.querySelectorAll(".navbar .nav-link").forEach(link => {
 
         e.preventDefault();
 
-        /* ==========================================
-           LANGSUNG AKTIFKAN MENU YANG DIKLIK
-        ========================================== */
-
+        /* LANGSUNG AKTIF SAAT KLIK */
         navLinks.forEach(navLink => {
             navLink.classList.remove("active");
         });
 
         this.classList.add("active");
 
-
-        /* ==========================================
-           KUNCI ACTIVE SELAMA SMOOTH SCROLL
-        ========================================== */
-
-        isAutoScrolling = true;
-
-
-        /* ==========================================
-           SMOOTH SCROLL
-        ========================================== */
-
+        /* SMOOTH SCROLL */
         const navbarHeight = navbar
             ? navbar.offsetHeight
             : 0;
 
         window.scrollTo({
-
             top: target.offsetTop - navbarHeight,
-
             behavior: "smooth"
-
         });
 
-
-        /* ==========================================
-           TUTUP MENU MOBILE
-        ========================================== */
-
+        /* TUTUP MENU MOBILE */
         if (navbarCollapse) {
 
             const collapse =
@@ -277,24 +238,9 @@ document.querySelectorAll(".navbar .nav-link").forEach(link => {
 
         }
 
-
-        /* ==========================================
-           BUKA KEMBALI UPDATE ACTIVE
-           SETELAH SCROLL SELESAI
-        ========================================== */
-
-        setTimeout(() => {
-
-            isAutoScrolling = false;
-
-            updateNavbar();
-
-        }, 800);
-
     });
 
 });
-
 /*==============================================
 SCROLL TO TOP
 ==============================================*/
